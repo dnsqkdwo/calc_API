@@ -1,0 +1,7 @@
+docker 
+
+docker build  -t calculator . ⇒ 이미지 빌드
+
+docker run -p 3000:3000 calculator ⇒ 이미지 실행
+
+http://localhost:3000/add?num=3&num=4&num=5
